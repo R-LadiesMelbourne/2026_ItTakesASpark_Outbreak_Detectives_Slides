@@ -580,28 +580,23 @@ Dataset design: among 56 RSV cases, cough 48/56 and sore throat 36/56; among 15 
 
 ## Infectious diseases: different organisms, different routes
 
-- Infectious disease can be caused by many types of organisms, including viruses, bacteria, fungi and parasites.
-
-- How a pathogen spreads affects the pattern we see in an outbreak.
-
-. . . 
+- Infectious diseases are caused by viruses, bacteria, fungi and parasites.
+- Transmission routes determine outbreak patterns.
 
 ::::: columns
 ::: {.column width="50%"}
 
 Respiratory transmission: 
 
-- Respiratory viruses can spread when infected people cough, sneeze, talk or have close contact with others.
-
-- This can create chains of infection through classrooms, households, sport and social activities.
+- Spread via coughing, sneezing, talking or close contact.
+- Creates infection chains through classrooms, households, and social settings.
 :::
 
 ::: {.column width="50%"}
 Water-associated transmission: 
 
-- Some intestinal parasites spread when microscopic infectious stages contaminate water or surfaces and are swallowed.
-
-- A shared environmental source can make many people sick without those people infecting one another.
+- Intestinal parasites spread when infectious stages contaminate water/surfaces and are ingested.
+- A shared source infects multiple people without person-to-person transmission.
 :::
 :::::
 
