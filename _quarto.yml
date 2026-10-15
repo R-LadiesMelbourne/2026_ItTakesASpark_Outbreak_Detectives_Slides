@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "It Takes a Spark: Outbreak Detectives"
+  description: "R-Ladies+ Melbourne workshop slides"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  glamour-revealjs:
+    logo: images/rebrand_logo_1.svg
+    code-overflow: wrap
+    fontsize: 34px
+    code-font-size: 18px
+    incremental: true
+    css: [theme/theme.css]
+    footer: "R-Ladies+ Melbourne | rladies.org"
+    title-slide-attributes:
+      class: elaborate-title
+      data-background-color: "#881ef9"

@@ -1,0 +1,88 @@
+/* Custom helpers complementing the glamour RLadies+ theme */
+
+/* --- Slide logo --- */
+.slide-logo {
+  display: block !important;
+  position: fixed !important;
+  top: 0 !important;
+  right: 10px !important;
+  max-height: 20% !important;
+  height: 100% !important;
+  width: auto !important;
+}
+
+/* --- Foreground colours (RLadies+ glamour palette) --- */
+
+.violet {
+  color: #881ef9; /* RLadies+ Blue Violet */
+  font-weight: bold;
+}
+
+.accent-blue {
+  color: #0f55cc; /* WCAG-AA variant of Dodger Blue used by glamour */
+  font-weight: bold;
+}
+
+.accent-rose {
+  color: #ff5b92; /* RLadies+ Brilliant Rose */
+  font-weight: bold;
+}
+
+/* --- Emphasis (bold + italic) variants --- */
+
+.violet-emph {
+  color: #881ef9;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.blue-emph {
+  color: #0f55cc;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.rose-emph {
+  color: #ff5b92;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* --- Background colours --- */
+
+.violet-background {
+  background-color: #881ef9;
+}
+
+.blue-background {
+  background-color: #0f55cc;
+}
+
+.rose-background {
+  background-color: #ff5b92;
+}
+
+.emph {
+  font-style: italic;
+}
+
+/* --- Layout helpers --- */
+
+.center {
+  text-align: center;
+}
+
+.statement {
+  text-align: center;
+  font-style: italic;
+}
+
+/* --- Big interstitial slides (alerts, section breaks) --- */
+
+.big-statement {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  text-align: left;
+}

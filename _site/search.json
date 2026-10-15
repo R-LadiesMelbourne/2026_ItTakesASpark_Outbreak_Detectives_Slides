@@ -1,0 +1,926 @@
+[
+  {
+    "objectID": "index.html#TitleSlide",
+    "href": "index.html#TitleSlide",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Welcome to Become a Disease Detective ! 🔍",
+    "text": "Welcome to Become a Disease Detective ! 🔍\nOrganised by\nR Ladies+ Melbourne"
+  },
+  {
+    "objectID": "index.html#acknowledgement-of-country",
+    "href": "index.html#acknowledgement-of-country",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Acknowledgement of Country",
+    "text": "Acknowledgement of Country\n\nWe would like to begin by acknowledging the Wurundjeri people of the Kulin Nation, the Traditional Custodians of the land on which we gather here today. We pay our respects to their Elders past, present, and emerging, and extend that respect to all Aboriginal and Torres Strait Islander peoples. We recognize their continuing connection to land, waters, and culture, and acknowledge that they were the first scientist on this land."
+  },
+  {
+    "objectID": "index.html#we-are",
+    "href": "index.html#we-are",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "We are…",
+    "text": "We are…\nKirsty, Dionne and Kathleen and we are from\nR Ladies+ Melbourne.\nWe are here to teach you how to code in R!"
+  },
+  {
+    "objectID": "index.html#what-is-coding-and-what-is-r",
+    "href": "index.html#what-is-coding-and-what-is-r",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What is coding and what is R ?",
+    "text": "What is coding and what is R ?\n\nCoding is writing instructions that a machine or computer can understand to perform a task.\n\n\n\n   \n\n\n\nR is coding language used in statistics, data science and many other disciplines. It is also very powerful tool for visualising data."
+  },
+  {
+    "objectID": "index.html#why-should-you-learn-r",
+    "href": "index.html#why-should-you-learn-r",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Why should you learn R?",
+    "text": "Why should you learn R?\n\n⚖️ R is free, open source and everyone can access\n\n\n\n🥳 It can do so many things\n\n\n\n📚 Lots of resources to learn and perform tasks, with a very large user community\n\n\n\n🧑‍🎓 You can get a super cool job ! It’s a fantastic skill that is highly sought after in the work force"
+  },
+  {
+    "objectID": "index.html#what-will-you-learn-today",
+    "href": "index.html#what-will-you-learn-today",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What will you learn today?",
+    "text": "What will you learn today?\n\n\n\n🗺️ What is an infectious disease, what is an outbreak and who are disease detectives?\n\n\n\n🔍 How can R be used to investigate outbreaks?\n\n\n\nThen YOU! are going to join the Global Outbreak Investigation Unit and solve an outbreak!"
+  },
+  {
+    "objectID": "index.html#what-are-infectious-diseases",
+    "href": "index.html#what-are-infectious-diseases",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What are infectious diseases?",
+    "text": "What are infectious diseases?\n\n\n🦠 Infectious diseases are caused by certain microorganisms, such as bacteria, viruses, parasites or fungi, and will make people (or animals) sick when they are exposed to these microorganisms.\n\n\n💭 Most microorganisms don’t make us sick, but some do, and these are known as pathogens.\n\n\n🤧 There are lots of different ways that you might get an infectious disease. Some ways include breathing respiratory droplets, eating contaminated food or water, insect bites and many many more !\n\nPause after reading the headline and see what students have to say"
+  },
+  {
+    "objectID": "index.html#when-do-infectious-diseases-cause-outbreaks",
+    "href": "index.html#when-do-infectious-diseases-cause-outbreaks",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "When do infectious diseases cause outbreaks?",
+    "text": "When do infectious diseases cause outbreaks?\n📚The World Health Organisation definition of an outbreak:\n\n💡 “occurrence of disease in excess of normal”\n\n\nThis might be because of a new pathogen, bringing pathogens to new areas, a mutating pathogen.\n\n\n\nMany infectious diseases now have vaccines that mean outbreaks to these pathogens occur much less frequently (for example: measles, chicken pox, influenza etc.)"
+  },
+  {
+    "objectID": "index.html#lets-go-through-some-examples-of-infectious-disease-outbreaks-viruses",
+    "href": "index.html#lets-go-through-some-examples-of-infectious-disease-outbreaks-viruses",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s go through some examples of infectious disease outbreaks: viruses!",
+    "text": "Let’s go through some examples of infectious disease outbreaks: viruses!"
+  },
+  {
+    "objectID": "index.html#the-covid-19-pandemic-of-2019",
+    "href": "index.html#the-covid-19-pandemic-of-2019",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "The COVID-19 pandemic of 2019",
+    "text": "The COVID-19 pandemic of 2019\n\n\n\n\n\nThe COVID-19 pandemic was caused by a virus known as SARS-CoV2. It caused a global pandemic.\nA pandemic is defined as an infectious disease affecting multiple parts of the world simultaneously, i.e. multiple countries are experiencing an epidemic.\nThere are now several vaccines that have helped to reduce the severity of this infection."
+  },
+  {
+    "objectID": "index.html#norovirus-outbreak-2023",
+    "href": "index.html#norovirus-outbreak-2023",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Norovirus Outbreak 2023",
+    "text": "Norovirus Outbreak 2023\n\n\n\n\n\nNorovirus causes vomitting and diarrhoea (you might call this gastro).\nIt is extremely stable in the environment and highly contagious.\nIngesting norovirus causes disease.\nThere is no vaccine available for norovirus."
+  },
+  {
+    "objectID": "index.html#what-about-bacteria",
+    "href": "index.html#what-about-bacteria",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What about bacteria!",
+    "text": "What about bacteria!"
+  },
+  {
+    "objectID": "index.html#buruli-ulcer",
+    "href": "index.html#buruli-ulcer",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Buruli ulcer",
+    "text": "Buruli ulcer\n\n\n\n\n\nImage: Institut Pasteur\n\n\n\n\nBuruli ulcer is caused by a bacteria known as Mycobacterium ulcerans.\nThe bacteria is slow growing and flesh eating and is endemic to Melbourne and surrounds.\nEndemic means that there is an ongoing transmission of a pathogen in that area.\nMode of transmission not entirely understood but likely involves mosquitoes and possums.\n\n\n\nPause after showing image"
+  },
+  {
+    "objectID": "index.html#who-studies-outbreaks",
+    "href": "index.html#who-studies-outbreaks",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Who studies outbreaks",
+    "text": "Who studies outbreaks\n\nPublic health departments in the government\n\nHow to improve the health of everyone\n\nAcademic research at Research Institutes and Universities\n\nMake new discoveries, such as developing new drugs or vaccines\n\nDoctors and health staff\n\nKeep their patients safe\n\n\n\nAnd many others too !"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "",
+    "text": "An epidemiologist is someone who studies how…\n\n\n\n“to keep the public informed on different public health issues and offer solutions to keep communities safe. They perform studies on outbreaks, their causes, transmission and effect on the public, collating that information into accessible data and health recommendations.”\nSource: What is epidemiology and what does an epidemiologist do?\n\nAsk students if they’ve heard of this before"
+  },
+  {
+    "objectID": "index.html#what-do-we-need-to-know-about-outbreaks",
+    "href": "index.html#what-do-we-need-to-know-about-outbreaks",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What do we need to know about outbreaks?",
+    "text": "What do we need to know about outbreaks?\n\nWhat is the problem?\nWhat is the cause?\nWhat can we do to make the situation better?"
+  },
+  {
+    "objectID": "index.html#the-situation",
+    "href": "index.html#the-situation",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "The situation",
+    "text": "The situation\nUnknown illness causes students to fall ill at local school.\nLocal authorities are unsure of the cause of this outbreak, but it appears to be linked to a recent excursion to Melbourne CBD"
+  },
+  {
+    "objectID": "index.html#the-excursion",
+    "href": "index.html#the-excursion",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "The excursion",
+    "text": "The excursion\nA few days earlier, students at a local school went into Melbourne to see an exhibition at the National Gallery of Victoria.\n\n\n\n🚌 At 8am, they took the bus to the NGV.\n\n\n🎨 They were in the gallery from 9am - 12pm.\n\n\n🍲 They had lunch from 12pm - 2pm at three different locations.\n\n\n🧑‍🎨 They went back to the gallery for another exhibition between 2 -4 pm.\n\n\n🏡 At 4pm they were back on the bus to go home."
+  },
+  {
+    "objectID": "index.html#you-are-here-to-investigate",
+    "href": "index.html#you-are-here-to-investigate",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "You are here to investigate…",
+    "text": "You are here to investigate…\nAnd you have been given some information including:\n\n\nName\nClass\nAge\nSex\n\n\nHeight\nWeight\nWas the student feeling sick\nWhat were their symptoms\n\n\nAnd we are going to do this in R !"
+  },
+  {
+    "objectID": "index.html#what-does-rstudio-look-like",
+    "href": "index.html#what-does-rstudio-look-like",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What does RStudio look like?",
+    "text": "What does RStudio look like?\n\n\n\nNow to our computers\nYou might be wondering what R looks like\nThe top left is our R code file where we’ll be writing our code\nThe top right is our environment pane which shows us R objects\nThe bottom left pane shows us outputs of our code\nAnd bottom right currently shows us the folder that we’re working\n\nNow get everyone to look at their computer and open screen to code with them"
+  },
+  {
+    "objectID": "index.html#r-can-be-our-notebook",
+    "href": "index.html#r-can-be-our-notebook",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "R can be our notebook",
+    "text": "R can be our notebook\nWe can save important information for later.\n\nWe can use &lt;- or =\n\n\nmy_name &lt;- \"Joy\"\npaste(\"My name is\", my_name)\n\n\n\n[1] \"My name is Joy\"\n\n\n\n\n\n\nseveral_names &lt;- c(\"Joy\", \"Anger\", \"Sadness\")\npaste(\"My name is\", several_names)\n\n\n\n[1] \"My name is Joy\"     \"My name is Anger\"   \"My name is Sadness\"\n\n\n\n\nYour turn !"
+  },
+  {
+    "objectID": "index.html#the-same-goes-for-numbers",
+    "href": "index.html#the-same-goes-for-numbers",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "The same goes for numbers",
+    "text": "The same goes for numbers\n\na_number &lt;- 137\nanother_number &lt;- 120\n\na_number * another_number\n\n\n\n[1] 16440\n\n\n\n\na_number / another_number\n\n\n\n[1] 1.141667\n\n\n\n\n\n(2 * a_number) + another_number\n\n\n\n[1] 394\n\n\n\n\nTry saving a number or a word to a meaningful name - can you see where it goes?\n\n\nmeaningful or descriptive word\nno spaces\ncomputer friendly to use underscore if you want to write multiple words\ntry not to spend toooo long on this: max 2 mins"
+  },
+  {
+    "objectID": "index.html#now-to-solve-an-outbreak",
+    "href": "index.html#now-to-solve-an-outbreak",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Now to solve an outbreak !",
+    "text": "Now to solve an outbreak !"
+  },
+  {
+    "objectID": "index.html#where-to-start",
+    "href": "index.html#where-to-start",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Where to start?",
+    "text": "Where to start?\nFirst we need to load in the data and tools to help us.\n\nOne of the great things about R is that there are lots of pre-installed commands that we can access or ones that others help to create and we can access. These are our “packages” that we access with the library() command.\n\n\nWe’ve set up a pre-written files to load this in for us!\n\n# source(here::here(\"setup\", \"setup.R\"))\n# source(here::here(\"setup\", \"map.R\"))\n\n\nShows them what’s on their screen and that we’ve done this for them already Show them how to run these commands by highlighting the ENTIRE code – easier Again try not to spend too long on this"
+  },
+  {
+    "objectID": "index.html#what-is-outbreak_data",
+    "href": "index.html#what-is-outbreak_data",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What is outbreak_data?",
+    "text": "What is outbreak_data?\n💡The number one step in data analysis is looking at the data\n\nPotentially highlight analogies here like reading a full recipe and seeing what ingredients you have or need to buy\n\n\nFor this, we are going to use our first pre-installed command called colnames().\n\n\n\n# colnames(outbreak_data)\n\n\n\n\n\n\n❓Can you find outbreak_data in the environment pane?\n\n\n🧐 What happens if you click on it there?\n\nAgain try not to spend too long on this"
+  },
+  {
+    "objectID": "index.html#different-kinds-of-data",
+    "href": "index.html#different-kinds-of-data",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Different kinds of data",
+    "text": "Different kinds of data\nIn outbreak_data we have several kinds of information and it’s important to identify what these are !\n\n\nHow would you describe what data we have in Firstname?\nHow is this different to Weight ?\nWhat are some terms we could use to define these ?\n\n\n\nAgain be quick\nAnswers: character, numeric…"
+  },
+  {
+    "objectID": "index.html#visualising-data",
+    "href": "index.html#visualising-data",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Visualising data",
+    "text": "Visualising data\nThe types of data we have to work with will determine how it is best to visualise !\n\n\nA scatter plot\nNotice both the x and the y-axis are things we can count or measure.\n\nA boxplot\n\n\n\nNotice the y-axis are things we count or measure but the x-axis are specific groups."
+  },
+  {
+    "objectID": "index.html#lets-plot-our-outbreak_data",
+    "href": "index.html#lets-plot-our-outbreak_data",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s plot our outbreak_data",
+    "text": "Let’s plot our outbreak_data\nWe will be using a function called ggplot(). This is a fantastic tool we can use to make amazing graphs !\nLike any graph we need to decide:\n\nWhat do we want on the x-axis?\nWhat do we want on the y-axis?\nWhat kind of graph do we want to make?\n\n\n🧑‍🎨other ideas like colour, design, groups … we’ll get to this later !"
+  },
+  {
+    "objectID": "index.html#how-to-ask-ggplot-to-plot-outbreak_data",
+    "href": "index.html#how-to-ask-ggplot-to-plot-outbreak_data",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "How to ask ggplot to plot outbreak_data",
+    "text": "How to ask ggplot to plot outbreak_data\naes is referring to aesthetics, these are all the things we are going to customise.\n\n\n# ggplot(data = outbreak_data, aes(x = class, y = height))\n\n\n\nNext we choose what kind of graph we need"
+  },
+  {
+    "objectID": "index.html#we-can-use-geom_point-or-geom_boxplot",
+    "href": "index.html#we-can-use-geom_point-or-geom_boxplot",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "We can use geom_point() or geom_boxplot()",
+    "text": "We can use geom_point() or geom_boxplot()\n\nLet’s first try geom_point().\nWe use the + sign to add it to our first ggplot command\n\n\n\n# ggplot(data = outbreak_data, aes(x = class, y = height)) +\n#        geom_point()\n\n\n\n\nWhere would we put geom_boxplot() ?"
+  },
+  {
+    "objectID": "index.html#we-can-use-geom_point-or-geom_boxplot-output",
+    "href": "index.html#we-can-use-geom_point-or-geom_boxplot-output",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "We can use geom_point() or geom_boxplot()",
+    "text": "We can use geom_point() or geom_boxplot()"
+  },
+  {
+    "objectID": "index.html#now-swap-height-for-temperature-on-the-y-axis",
+    "href": "index.html#now-swap-height-for-temperature-on-the-y-axis",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Now swap height for temperature on the y-axis",
+    "text": "Now swap height for temperature on the y-axis\n\n\n# ggplot(data = outbreak_data, aes(x = class, y = temperature)) +\n#        geom_point()"
+  },
+  {
+    "objectID": "index.html#lets-customise",
+    "href": "index.html#lets-customise",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s customise !",
+    "text": "Let’s customise !\nCan you change size, shape and colour…what kinds of plots can you make ?\n\n# ggplot(data = outbreak_data, aes(x = class, y = temperature)) +\n#        geom_point(size = 4, shape = 5, colour = \"blue\")"
+  },
+  {
+    "objectID": "index.html#lets-customise-output",
+    "href": "index.html#lets-customise-output",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s customise !",
+    "text": "Let’s customise !"
+  },
+  {
+    "objectID": "index.html#lets-customise-1",
+    "href": "index.html#lets-customise-1",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s customise !",
+    "text": "Let’s customise !\nIf you’re feeling stuck, try this:\n\n# scatterplot(\n#   outbreak_data,\n#   x = class,\n#   y = temperature,\n#   fill_col = \"violet\",\n#   title = \"My scatterplot\"\n# )"
+  },
+  {
+    "objectID": "index.html#can-you-make-a-boxplot-with-class-on-the-x-axis-and-temperature-on-the-y-axis",
+    "href": "index.html#can-you-make-a-boxplot-with-class-on-the-x-axis-and-temperature-on-the-y-axis",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Can you make a boxplot with class on the x-axis and temperature on the y-axis",
+    "text": "Can you make a boxplot with class on the x-axis and temperature on the y-axis\n\nmax. 5 minutes"
+  },
+  {
+    "objectID": "index.html#a-boxplot-summarising-temperature-in-the-four-classes",
+    "href": "index.html#a-boxplot-summarising-temperature-in-the-four-classes",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "A boxplot summarising temperature in the four classes",
+    "text": "A boxplot summarising temperature in the four classes\n\n# ggplot(data = outbreak_data, aes(x = class, y = temperature)) +\n#        geom_boxplot()"
+  },
+  {
+    "objectID": "index.html#a-boxplot-summarising-temperature-in-the-four-classes-1",
+    "href": "index.html#a-boxplot-summarising-temperature-in-the-four-classes-1",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "A boxplot summarising temperature in the four classes",
+    "text": "A boxplot summarising temperature in the four classes\nIf you’re feeling stuck, try this:\n\n# boxplot(\n#         outbreak_data,\n#         x = class,\n#         y = temperature,\n#         fill_col = \"gold\",\n#         title = \"My boxplot\"\n# )"
+  },
+  {
+    "objectID": "index.html#what-does-a-boxplot-tell-us",
+    "href": "index.html#what-does-a-boxplot-tell-us",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What does a boxplot tell us ?",
+    "text": "What does a boxplot tell us ?\n\nProvides us with an informative summary of the data in our groups\n\nThe center line gives the median\nthe box below is 25% of the data below the median and the box below is 25% of the data above\n\n\n\n🧐 If we don’t know what R is doing, we can always get help !\n\n\n\n# ?geom_boxplot()"
+  },
+  {
+    "objectID": "index.html#how-can-we-use-fill-to-learn-more",
+    "href": "index.html#how-can-we-use-fill-to-learn-more",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "How can we use fill to learn more ?",
+    "text": "How can we use fill to learn more ?\nThe fill can be specified as aesthetics like the x and y axis.\n\nCan you specify the fill with our Sickness information about each student ?\n\n\n\n# ggplot(data = outbreak_data, aes(x = class, y = temperature, fill = sickness)) +\n#        geom_boxplot()"
+  },
+  {
+    "objectID": "index.html#what-does-temperature-tell-us-about-how-the-students-were-feeling",
+    "href": "index.html#what-does-temperature-tell-us-about-how-the-students-were-feeling",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "🧐 What does temperature tell us about how the students were feeling?",
+    "text": "🧐 What does temperature tell us about how the students were feeling?\n\n\nWere the temperatures the same for students who were sick and those who weren’t\nWhere the sick students in all classes\nWhy do people get a temperature when they get sick?\n\n= Max: 5 minutes"
+  },
+  {
+    "objectID": "index.html#time-to-give-our-plot-a-title",
+    "href": "index.html#time-to-give-our-plot-a-title",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Time to give our plot a title",
+    "text": "Time to give our plot a title\n\n# ggplot(data = outbreak_data, aes(x = class, y = temperature, fill = sickness)) +\n#        geom_boxplot() +\n#        labs(title = \"Make a title here !\")\n\n\n\n\n\nMake it something informative that describes the plot you’ve just made and why people would be interested to look at it"
+  },
+  {
+    "objectID": "index.html#lets-calculate-some-summaries",
+    "href": "index.html#lets-calculate-some-summaries",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s calculate some summaries",
+    "text": "Let’s calculate some summaries\nThis symbol %&gt;% is used to send our data into another command such as summarise()\n\nAs the name would suggest, we can generate summaries, such as calculating the median\n\n\n\n# outbreak_data %&gt;%\n#   summarise(median = median(temperature))"
+  },
+  {
+    "objectID": "index.html#we-can-also-use-group_by-with-multiple-groups",
+    "href": "index.html#we-can-also-use-group_by-with-multiple-groups",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "We can also use group_by() with multiple groups",
+    "text": "We can also use group_by() with multiple groups\n\nJust like our boxplot, we want to know the median temperature of the students, grouped by their Class and Sickness status\n\n\n👏Try to do this by adding group_by(class, sickness)\n\n\n\n# outbreak_data %&gt;%\n#   group_by(class, sickness) %&gt;%\n#   summarise(median = median(temperature))\n\n\n\n\nHow can we relate this to the boxplot we made earlier ?"
+  },
+  {
+    "objectID": "index.html#we-can-also-use-group_by-with-multiple-groups-output",
+    "href": "index.html#we-can-also-use-group_by-with-multiple-groups-output",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "We can also use group_by() with multiple groups",
+    "text": "We can also use group_by() with multiple groups"
+  },
+  {
+    "objectID": "index.html#lets-focus-on-the-students-symptoms",
+    "href": "index.html#lets-focus-on-the-students-symptoms",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s focus on the student’s symptoms",
+    "text": "Let’s focus on the student’s symptoms\nWe are going to use a new type of graph to do this, it’s called a bar plot.\n\nFor this we use geom_bar()\n\n# ggplot(data = outbreak_data, aes(x = sickness)) +\n#        geom_bar()"
+  },
+  {
+    "objectID": "index.html#how-many-students-were-and-were-not-sick",
+    "href": "index.html#how-many-students-were-and-were-not-sick",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "How many students were and were not sick ?",
+    "text": "How many students were and were not sick ?\nAs well as the bar plot, we can also use the count() command\n\n\n# outbreak_data %&gt;%\n#   count(sickness)"
+  },
+  {
+    "objectID": "index.html#what-is-making-the-students-sick",
+    "href": "index.html#what-is-making-the-students-sick",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What is making the students sick ?",
+    "text": "What is making the students sick ?\nSickness summarises all of the symptoms. Now it’s time to get specific!\n\nCan you make some other bar plots to see what the students were sick with?\n\n\n💡 Remember we can use colnames(outbreak_data) to find out what information we have in outbreak_data!\n\n\n🤩 You might also like to try customising your plot. Remember we can change the colour by specifying fill = within the geom_bar() command. You might also like to try aes(fill = )."
+  },
+  {
+    "objectID": "index.html#shortness-of-breath",
+    "href": "index.html#shortness-of-breath",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Shortness of breath",
+    "text": "Shortness of breath\n\n# ggplot(data = outbreak_data, aes(x = shortness_of_breath)) +\n#        geom_bar(aes(fill = shortness_of_breath))"
+  },
+  {
+    "objectID": "index.html#what-have-you-found-what-symptoms-are-the-most-common",
+    "href": "index.html#what-have-you-found-what-symptoms-are-the-most-common",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "🧐 What have you found? What symptoms are the most common ?",
+    "text": "🧐 What have you found? What symptoms are the most common ?\n\nmax. 5 minutes"
+  },
+  {
+    "objectID": "index.html#re-organising-our-symptoms-data",
+    "href": "index.html#re-organising-our-symptoms-data",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Re-organising our symptoms data",
+    "text": "Re-organising our symptoms data\nData can be formatted in different ways.\nFor example, prioritise having one row per individual with lots of columns.\n\nThis is like our outbreak_data.\n\n\nOr sometimes we can change the format and so instead we have a long list of one observation per row.\n\n\nThis is what we have in our symptoms data.\n\n\nFor the next few plots we are going to use symptoms and not outbreak_data, however they record exactly the same thing."
+  },
+  {
+    "objectID": "index.html#bringing-all-the-symptoms-together",
+    "href": "index.html#bringing-all-the-symptoms-together",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Bringing all the symptoms together",
+    "text": "Bringing all the symptoms together\n\n# ggplot(data = symptoms, aes(y = symptom, fill = status)) +\n#      geom_bar()"
+  },
+  {
+    "objectID": "index.html#bringing-all-the-symptoms-together-1",
+    "href": "index.html#bringing-all-the-symptoms-together-1",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Bringing all the symptoms together",
+    "text": "Bringing all the symptoms together\n\n\n\n\n\nThis doesn’t necessarily help us to decide what is making the students sick because they are not separated as to whether they were sick or not\nWe really want to separate those that have a YES in Sickness"
+  },
+  {
+    "objectID": "index.html#we-can-filter-this-list-to-just-those-that-are-sick",
+    "href": "index.html#we-can-filter-this-list-to-just-those-that-are-sick",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "We can filter this list to just those that are sick !",
+    "text": "We can filter this list to just those that are sick !\nThis needs the filter() command\n\n# symptoms_sick &lt;- symptoms %&gt;%\n#   filter(sickness == \"yes\")"
+  },
+  {
+    "objectID": "index.html#now-what-symptoms-do-the-sick-students-have",
+    "href": "index.html#now-what-symptoms-do-the-sick-students-have",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Now, what symptoms do the sick students have ?",
+    "text": "Now, what symptoms do the sick students have ?\n\n# ggplot(data = symptoms_sick, aes(y = symptom, fill = status)) +\n#      geom_bar() +\n#      labs(title = \"What symptoms do the sick students have ?\")"
+  },
+  {
+    "objectID": "index.html#now-what-symptoms-do-the-sick-students-have-1",
+    "href": "index.html#now-what-symptoms-do-the-sick-students-have-1",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Now, what symptoms do the sick students have ?",
+    "text": "Now, what symptoms do the sick students have ?\n\n# barplot(\n#         symptoms_sick,\n#         x = symptom,\n#         colour_by = status,\n#         horizontal = TRUE,\n#         title = \"What symptoms do the sick students have ?\"\n# )"
+  },
+  {
+    "objectID": "index.html#interpreting-our-data",
+    "href": "index.html#interpreting-our-data",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Interpreting our data",
+    "text": "Interpreting our data\nWhat does this graph tell us?\n\nWhat are the symptoms of those that are sick?\nWhat might be some causes of illness that give these symptoms?"
+  },
+  {
+    "objectID": "index.html#likely-cause",
+    "href": "index.html#likely-cause",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Likely cause…",
+    "text": "Likely cause…\n\nask if they have any guesses"
+  },
+  {
+    "objectID": "index.html#what-is-salmonella",
+    "href": "index.html#what-is-salmonella",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What is salmonella?",
+    "text": "What is salmonella?\n\nA bacterial infection\nCommonly from contaminated food\nExamples…undercooked chicken, raw egg, insufficient cleaning\nYou can start to feel sick within 6 to 36 hours after eating"
+  },
+  {
+    "objectID": "index.html#but-how-did-the-students-get-sick",
+    "href": "index.html#but-how-did-the-students-get-sick",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "But how did the students get sick ?",
+    "text": "But how did the students get sick ?"
+  },
+  {
+    "objectID": "index.html#challenge-where-did-the-students-get-sick",
+    "href": "index.html#challenge-where-did-the-students-get-sick",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Challenge: Where did the students get sick?",
+    "text": "Challenge: Where did the students get sick?\n🎨 At the gallery?\n\n🚌 On the bus?\n\n\n🍲 At lunch?"
+  },
+  {
+    "objectID": "index.html#wait-we-have-some-more-information",
+    "href": "index.html#wait-we-have-some-more-information",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "WAIT ! We have some more information",
+    "text": "WAIT ! We have some more information\n🍲 We have just been sent some information about where the student’s ate lunch !\n\nThey ate at three different restaurants !\n\nmax. 5 minutes"
+  },
+  {
+    "objectID": "index.html#plot-where-the-students-ate-their-lunch",
+    "href": "index.html#plot-where-the-students-ate-their-lunch",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Plot where the students ate their lunch…",
+    "text": "Plot where the students ate their lunch…\n\n# ggmap(melb_map) +\n#    geom_point(\n#       data = map_data,\n#       aes(x = long, y = lat, colour = sickness),\n#       size = 12,\n#       shape = 1\n#    )"
+  },
+  {
+    "objectID": "index.html#this-was-based-on-a-real-life-outbreak-in-melbourne",
+    "href": "index.html#this-was-based-on-a-real-life-outbreak-in-melbourne",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "This was based on a real life outbreak in Melbourne !",
+    "text": "This was based on a real life outbreak in Melbourne !\n\nABC New 2015"
+  },
+  {
+    "objectID": "index.html#today-we-have-learnt",
+    "href": "index.html#today-we-have-learnt",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Today we have learnt…",
+    "text": "Today we have learnt…\n\n🦠 What are pathogens and what are outbreaks\n\n\n🌎 Who are epidemiologists\n\n\n🔢 What is R\n\n\n📊 How to make plots with ggplot\n\n\n📈 How to organise and arrange complex data"
+  },
+  {
+    "objectID": "index.html#whats-something-that-youve-learnt-today",
+    "href": "index.html#whats-something-that-youve-learnt-today",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "🤠 What’s something that you’ve learnt today?",
+    "text": "🤠 What’s something that you’ve learnt today?"
+  },
+  {
+    "objectID": "index.html#do-you-want-to-learn-more",
+    "href": "index.html#do-you-want-to-learn-more",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Do you want to learn more?",
+    "text": "Do you want to learn more?\nOur online book of today’s lesson \nScan the QR code on our poster! \n\nRStudio Education for Beginners\nR for Data Science\nThe Epidemiologist R Handbook\nR You With Me\nR-Graph Gallery"
+  },
+  {
+    "objectID": "index.html#and-thank-you-to",
+    "href": "index.html#and-thank-you-to",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "And thank you to…",
+    "text": "And thank you to…\n\n\n\n\nIt Takes a Spark !\n\n\nand to all of you for helping solve the outbreak !"
+  },
+  {
+    "objectID": "index.html#lets-go-through-some-examples-of-infectious-diseases-that-cause-outbreaks",
+    "href": "index.html#lets-go-through-some-examples-of-infectious-diseases-that-cause-outbreaks",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s go through some examples of infectious diseases that cause outbreaks!",
+    "text": "Let’s go through some examples of infectious diseases that cause outbreaks!"
+  },
+  {
+    "objectID": "index.html#what-is-covid-19",
+    "href": "index.html#what-is-covid-19",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What is COVID-19?",
+    "text": "What is COVID-19?\n\n\n\n\n\nCOVID-19 is caused by a virus known as SARS-CoV2. It caused a global pandemic.\nA pandemic is defined as an infectious disease affecting multiple parts of the world simultaneously, i.e. multiple countries are experiencing an epidemic.\nThere are now several vaccines that have helped to reduce the severity of this infection.\n\n\n\nexample of a virus"
+  },
+  {
+    "objectID": "index.html#what-is-rsv",
+    "href": "index.html#what-is-rsv",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What is RSV?",
+    "text": "What is RSV?\n\n\n\n\n\nImage: National Foundation for Infectious Diseases (NFID)\n\n\n\n\nRespiratory syncytial virus (RSV) infects the respiratory tract.\nCommon symptoms can include runny nose, sneezing, cough, sore throat and fever. More severe respiratory illness can occur.\nIt spreads mainly through respiratory droplets/secretions and close contact.\n\n\n\nAnother example of a virus Connect back to coughing/sneezing and the school contact chain. Avoid implying all listed severe symptoms are expected in every adolescent case."
+  },
+  {
+    "objectID": "index.html#what-is-cryptosporidiosis",
+    "href": "index.html#what-is-cryptosporidiosis",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What is cryptosporidiosis?",
+    "text": "What is cryptosporidiosis?\n\n\n\n\n\nImage: Wikimedia\n\n\n\n\nCryptosporidiosis is gastroenteritis caused by the parasite Cryptosporidium.\nTypical symptoms include watery diarrhoea, abdominal cramps, nausea/vomiting, fatigue and sometimes fever.\nInfection can occur after swallowing contaminated recreational water.\n\n\n\nCryptosporidium is unusually resistant to normal pool chlorine levels. Example of a parasitic infection Victorian guidance gives an incubation range of 1–12 days, average ~7 days. People should avoid swimming for 2 weeks after diarrhoea stops."
+  },
+  {
+    "objectID": "index.html#what-is-toxoplasmosis",
+    "href": "index.html#what-is-toxoplasmosis",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What is Toxoplasmosis?",
+    "text": "What is Toxoplasmosis?\n\n\n\n\n\nImage: Center for Disease Control and Prevention (CDC)\n\n\n\n\nToxoplasmosis is an infection caused by the parasite Toxoplasma gondii.\nThe parasite occurs worldwide and can last for long periods of time in humans (and other animals).\nIn fact, the parasite is endemic in Melbourne: there is an ongoing transmission.\nIt spreads through contaminated soil, sand, unwashed produce, undercooked meat, or unpasteurised milk."
+  },
+  {
+    "objectID": "index.html#warning-emergency-alert-1",
+    "href": "index.html#warning-emergency-alert-1",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "WARNING: EMERGENCY ALERT!!!",
+    "text": "WARNING: EMERGENCY ALERT!!!\n\n\nSeveral local hospitals have reported an unusual increase in sick students from the same school.\n\n\nStudents from two classrooms have presented with a range of symptoms. The number of cases is growing.\n\n\nSchool activities include shared classes, lunch, art, hockey and swimming practice.\n\n\nWe need you to investigate what is causing this problem and how can we make the situation better?\n\n\n\nThis is the first story reveal. Ask: What would you want to know first?"
+  },
+  {
+    "objectID": "index.html#your-cohort",
+    "href": "index.html#your-cohort",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Your cohort",
+    "text": "Your cohort\n\n95 students are part of the investigation.\nSome are sick. Some are well.\nYour first task is to use the hospital records to find out how many cases there are.\n\n\nDo not show 71/24 yet if you want students to calculate it in R. Facilitator answer: 71 sick, 24 well."
+  },
+  {
+    "objectID": "index.html#why-include-students-who-are-well",
+    "href": "index.html#why-include-students-who-are-well",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Why include students who are well?",
+    "text": "Why include students who are well?\nPeople who do NOT become sick are important too.\nThey help us ask:\n\nWas an exposure really associated with illness?\nDid everyone who had contact become sick?\nAre there different groups within the outbreak?\n\n\nSimple epidemiology concept: comparison groups and attack-rate thinking without formal statistics."
+  },
+  {
+    "objectID": "index.html#hospital-update-1",
+    "href": "index.html#hospital-update-1",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "HOSPITAL UPDATE!!!",
+    "text": "HOSPITAL UPDATE!!!\nPatient records have arrived from several hospitals.\nThey were assembled quickly by different staff, so some values are inconsistent.\nTask: load, inspect and clean the data.\n\nTransition to R. Mention real outbreak data are often messy."
+  },
+  {
+    "objectID": "index.html#what-do-the-hospital-records-show",
+    "href": "index.html#what-do-the-hospital-records-show",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What do the hospital records show?",
+    "text": "What do the hospital records show?\nAfter cleaning:\n\n95 students in the cohort\n71 sick\n24 well\n51 students had a hospital visit recorded\n\n\nBut do all 71 sick students have the same illness?\n\nReveal counts after students run the relevant code. 51 is ~72% of sick students."
+  },
+  {
+    "objectID": "index.html#request-from-the-chief-epidemiologist",
+    "href": "index.html#request-from-the-chief-epidemiologist",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "REQUEST FROM THE CHIEF EPIDEMIOLOGIST",
+    "text": "REQUEST FROM THE CHIEF EPIDEMIOLOGIST\nWe need a rapid symptom summary.\nInvestigate: - common symptoms\n\ntemperature\nhow quickly symptoms appeared\nwhether all cases look alike\n\n\nLet students make/edit symptom and temperature figures."
+  },
+  {
+    "objectID": "index.html#two-symptom-patterns-begin-to-appear",
+    "href": "index.html#two-symptom-patterns-begin-to-appear",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Two symptom patterns begin to appear",
+    "text": "Two symptom patterns begin to appear\n\nOne large group is dominated by cough, sore throat and low-grade fever.\nA smaller group is dominated by diarrhoea and vomiting.\n\n\nCould one disease explain both patterns?\n\nDataset design: among 56 RSV cases, cough 48/56 and sore throat 36/56; among 15 Crypto cases, diarrhoea 15/15 and vomiting 9/15. Keep diagnosis hidden."
+  },
+  {
+    "objectID": "index.html#infectious-diseases-different-organisms-different-routes",
+    "href": "index.html#infectious-diseases-different-organisms-different-routes",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Infectious diseases: different organisms, different routes",
+    "text": "Infectious diseases: different organisms, different routes\n\nInfectious disease can be caused by many types of organisms, including viruses, bacteria, fungi and parasites.\nHow a pathogen spreads affects the pattern we see in an outbreak.\n\n\nUse a simple virus-versus-parasite visual. Set up respiratory vs faecal-oral/environmental transmission."
+  },
+  {
+    "objectID": "index.html#respiratory-transmission",
+    "href": "index.html#respiratory-transmission",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Respiratory transmission",
+    "text": "Respiratory transmission\n\nRespiratory viruses can spread when infected people cough, sneeze, talk or have close contact with others.\nThis can create chains of infection through classrooms, households, sport and social activities.\n\n\nDo not name RSV yet. Ask what network pattern students would expect for person-to-person spread."
+  },
+  {
+    "objectID": "index.html#water-associated-transmission",
+    "href": "index.html#water-associated-transmission",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Water-associated transmission",
+    "text": "Water-associated transmission\n\nSome intestinal parasites spread when microscopic infectious stages contaminate water or surfaces and are swallowed.\nA shared environmental source can make many people sick without those people infecting one another.\n\n\nDo not name Crypto yet. Ask what a contact network might look like after a common-source exposure."
+  },
+  {
+    "objectID": "index.html#new-evidence-where-were-the-students",
+    "href": "index.html#new-evidence-where-were-the-students",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "NEW EVIDENCE: Where were the students?",
+    "text": "NEW EVIDENCE: Where were the students?"
+  },
+  {
+    "objectID": "index.html#what-stands-out",
+    "href": "index.html#what-stands-out",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What stands out?",
+    "text": "What stands out?\nLook for patterns rather than one perfect clue.\nQuestions: - Are respiratory cases linked through school activities?\n\nIs there a location shared by the gastro cases?\nAre some students at that location sick with a different symptom pattern?\n\n\nThis is where swimming becomes suspicious without yet announcing Crypto."
+  },
+  {
+    "objectID": "index.html#breaking-news-sequencing-results",
+    "href": "index.html#breaking-news-sequencing-results",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "BREAKING NEWS: sequencing results",
+    "text": "BREAKING NEWS: sequencing results"
+  },
+  {
+    "objectID": "index.html#how-to-read-the-tree",
+    "href": "index.html#how-to-read-the-tree",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "How to read the tree",
+    "text": "How to read the tree\nA phylogenetic tree groups sequences by similarity.\nTips: - tips that join closely are more similar in this teaching dataset - look for patient samples clustering near a named reference - branch position matters more than left-to-right order\n\nKeep this conceptual. Avoid implying the cross-virus/parasite branch lengths are biologically meaningful."
+  },
+  {
+    "objectID": "index.html#respiratory-references-in-our-tree",
+    "href": "index.html#respiratory-references-in-our-tree",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Respiratory references in our tree",
+    "text": "Respiratory references in our tree\nRSV - respiratory syncytial virus; a contagious respiratory virus that commonly causes cold-like illness and can cause more severe lower-respiratory disease.\nHMPV - human metapneumovirus; another respiratory virus that can produce RSV-like illness.\nInfluenza - the virus responsible for seasonal flu.\nSARS-CoV-2 - the virus that causes COVID-19.\nRhinovirus - a very common cause of the common cold.\n\nIn the synthetic tree, RSV is closest to HMPV, while influenza, SARS-CoV-2 and rhinovirus are more distant teaching references. Clarify that the alignment is artificial."
+  },
+  {
+    "objectID": "index.html#parasite-references-in-our-tree",
+    "href": "index.html#parasite-references-in-our-tree",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Parasite references in our tree",
+    "text": "Parasite references in our tree\nCryptosporidium - a microscopic intestinal parasite that causes cryptosporidiosis, usually with watery diarrhoea and gastrointestinal symptoms; recreational water is a recognised source.\nToxoplasma gondii - a protozoan parasite that causes toxoplasmosis.\nEimeria - a group of protozoan parasites best known for intestinal disease in animals.\nPlasmodium spp. - protozoan parasites that cause malaria and are transmitted by Anopheles mosquitoes.\n\nIn the synthetic tree, Crypto sits with the parasite teaching references, with Toxoplasma/Eimeria closer and Plasmodium more distant. Do not present this artificial tree as a real evolutionary analysis."
+  },
+  {
+    "objectID": "index.html#the-tree-reveals-two-groups",
+    "href": "index.html#the-tree-reveals-two-groups",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "The tree reveals two groups",
+    "text": "The tree reveals two groups\nPatient sequences do not form one cluster.\nOne set clusters with RSV.\nAnother set clusters with Cryptosporidium.\nWe may be investigating TWO outbreaks at the same time.\n\nThis is the major diagnostic reveal. Let students identify the labels before showing the final sentence if possible."
+  },
+  {
+    "objectID": "index.html#contact-tracing-update",
+    "href": "index.html#contact-tracing-update",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "CONTACT TRACING UPDATE",
+    "text": "CONTACT TRACING UPDATE"
+  },
+  {
+    "objectID": "index.html#the-rsv-network",
+    "href": "index.html#the-rsv-network",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "The RSV network",
+    "text": "The RSV network\nP01 recently returned from holiday via an international airport and is the likely introduction in our fictional scenario.\nFrom P01, the contact pattern branches through: classroom → classmates → lunch/art → second classroom → hockey.\nSome connected students remain well.\n\nImportant: call this a plausible contact/transmission pattern, not proof that each edge identifies who infected whom"
+  },
+  {
+    "objectID": "index.html#the-swimming-pool-cases",
+    "href": "index.html#the-swimming-pool-cases",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "The swimming-pool cases",
+    "text": "The swimming-pool cases\nThe gastro cases appear separately rather than forming a person-to-person chain.\nTheir important connection is not an edge on the contact network - it is the shared swimming-pool exposure.\nSome students around the swimming group have RSV because they are connected back into the school respiratory network.\n\nThis is the key lesson: network + location + symptoms + lab evidence must be interpreted together."
+  },
+  {
+    "objectID": "index.html#final-brief",
+    "href": "index.html#final-brief",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "FINAL BRIEF",
+    "text": "FINAL BRIEF"
+  },
+  {
+    "objectID": "index.html#case-solved",
+    "href": "index.html#case-solved",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Case solved",
+    "text": "Case solved"
+  },
+  {
+    "objectID": "index.html#what-would-public-health-officers-do-next",
+    "href": "index.html#what-would-public-health-officers-do-next",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What would public health officers do next?",
+    "text": "What would public health officers do next?\n\n\nFor a respiratory outbreak: - identify cases and advise on staying home while unwell - reinforce cough/hand hygiene and ventilation - monitor for additional cases\n\nFor suspected pool-associated Crypto: - confirm cases and investigate the aquatic facility - advise people with diarrhoea not to swim - work with environmental health/pool operators on control measures"
+  },
+  {
+    "objectID": "index.html#real-life-rsv-in-australia-2026",
+    "href": "index.html#real-life-rsv-in-australia-2026",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Real life: RSV in Australia, 2026",
+    "text": "Real life: RSV in Australia, 2026\nThe workshop’s RSV storyline was inspired by a July 2026 newsGP report.\nDuring the first half of 2026, RSV was the most notified of RSV, influenza and COVID-19 nationally: 83,678 RSV notifications, compared with 51,655 COVID-19 and 49,785 influenza notifications.\nRSV accounted for 45% of notifications across those three respiratory viruses in that period.\n\nSource: RACGP newsGP, 15 July 2026. Clarify that our fictional school outbreak and student numbers are invented; the national notification figures are real. https://www1.racgp.org.au/newsgp/clinical/rsv-tops-most-notified-respiratory-virus RACGP newsGP - “RSV tops most notified respiratory virus”, 15 July 2026 https://www1.racgp.org.au/newsgp/clinical/rsv-tops-most-notified-respiratory-virus"
+  },
+  {
+    "objectID": "index.html#real-life-crypto-and-swimming-pools",
+    "href": "index.html#real-life-crypto-and-swimming-pools",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Real life: Crypto and swimming pools",
+    "text": "Real life: Crypto and swimming pools\nPool-associated cryptosporidiosis is a real public-health problem.\nVictorian health guidance recognises public pools and recreational water as outbreak sources, and Crypto can survive normal pool chlorine levels.\nIn February 2026, an Adelaide aquatic-centre cluster involved eight cases linked to Waterworld, with pools temporarily closed for decontamination.\n\nThis grounds the fictional swimming scenario in a contemporary Australian example. Also mention Victoria recorded 1,125 notifications in 2025 after a record 2,350 in 2024 if useful.\nhttps://www.google.com/goto?url=CAESewHrOzAVZDPd6GVPyJZ8cS9ez38NsdUdGG6uz7f4iApYFu_ZK9Eq-adX_B_o7ta6tCxAyc_BvzWtYtrZsLG0IAtHwDASJCSuSKN319wJkz5WdUZl-MLk7AsL-jOyD9UC_tvUuWGgd2l0DS7NF1PZMI48C1bsG6Di2HCRfg\nSources for the real-life closing slides • Victorian Department of Health - Cryptosporidiosis https://www.health.vic.gov.au/infectious-diseases/cryptosporidiosis • Victorian Department of Health - Cryptosporidium and swimming pools https://www.health.vic.gov.au/water/cryptosporidium • ABC News - “Cryptosporidium cluster at Waterworld leads to closure of Adelaide Aquatic Centre pools”, 11 February 2026 https://www.abc.net.au/news/2026-02-11/adelaide-aquatic-centres-close-after-cluster-of-gastro-cases/106330324 • Victorian Department of Health - “Keep pools safe this summer: simple steps to stop crypto”, 31 December 2025 https://www.health.vic.gov.au/media-releases/keep-pools-safe-this-summer-simple-steps-to-stop-crypto"
+  },
+  {
+    "objectID": "index.html#why-rapid-outbreak-response-matters",
+    "href": "index.html#why-rapid-outbreak-response-matters",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Why rapid outbreak response matters",
+    "text": "Why rapid outbreak response matters\nAt the beginning, the team had messy hospital records and an unexplained cluster.\nBy combining epidemiology, coding, laboratory evidence and contact tracing, you separated two outbreaks with different transmission routes.\nThat is exactly why outbreak teams use multiple sources of evidence.\n\nFinish on the multidisciplinary message: data science + biology + epidemiology + public health."
+  },
+  {
+    "objectID": "index.html#incoming-message-senior-epidemiologist",
+    "href": "index.html#incoming-message-senior-epidemiologist",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Incoming message: Senior Epidemiologist",
+    "text": "Incoming message: Senior Epidemiologist\n\n\nSeveral local hospitals have reported an unusual increase in sick students from the same school.\n\n\nStudents from two classrooms have presented with a range of symptoms. The number of cases is growing.\n\n\nSchool activities include shared classes, lunch, art, hockey and swimming practice.\n\n\nI need you to investigate what is causing this problem and how can we make the situation better?\n\n\n\nThis is the first story reveal. Ask: What would you want to know first?"
+  },
+  {
+    "objectID": "index.html#warning-emergency-alert",
+    "href": "index.html#warning-emergency-alert",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "WARNING: EMERGENCY ALERT!!!",
+    "text": "WARNING: EMERGENCY ALERT!!!"
+  },
+  {
+    "objectID": "index.html#incoming-message-chief-epidemiologist",
+    "href": "index.html#incoming-message-chief-epidemiologist",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Incoming message: Chief Epidemiologist",
+    "text": "Incoming message: Chief Epidemiologist\n\n\nSeveral local hospitals have reported an unusual increase in sick students from the same school.\n\n\nStudents from two classrooms have presented with a range of symptoms. The number of cases is growing.\n\n\nSchool activities include shared classes, lunch, art, hockey and swimming practice.\n\n\nI need you to investigate what is causing this problem and how can we make the situation better?\n\n\n\nThis is the first story reveal. Ask: What would you want to know first?"
+  },
+  {
+    "objectID": "index.html#hospital-update",
+    "href": "index.html#hospital-update",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "HOSPITAL UPDATE!!!",
+    "text": "HOSPITAL UPDATE!!!"
+  },
+  {
+    "objectID": "index.html#incoming-message-chief-epidemiologist-1",
+    "href": "index.html#incoming-message-chief-epidemiologist-1",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Incoming message: Chief Epidemiologist",
+    "text": "Incoming message: Chief Epidemiologist\n\n\nPatient records have arrived from several hospitals.\n\n\nThey were assembled quickly by different staff, so some values are inconsistent.\n\n\nI need you to load, inspect and clean the data.\n\n\n\nTransition to R. Mention real outbreak data are often messy."
+  },
+  {
+    "objectID": "index.html#first-open-the-patient-file",
+    "href": "index.html#first-open-the-patient-file",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "First, open the patient file",
+    "text": "First, open the patient file\n\npatients_raw &lt;- load_patients()\n\n\nTake a look.\n\nhead(patients_raw)\n\n\n\n\n\n\n\npatient_id\nfirst_name\nclass\nage\nsex\ntemperature_c\nhours_to_symptoms\nhospitalised\ncase_status\nfever\ncough\nsore_throat\nheadache\nmuscle_aches\nvomiting\ndiarrhoea\nloss_of_smell\nbleeding\nconfusion\n\n\n\n\nP01\nAlex\n9A\n16\nfemale\n37.3\n72.0\nYES\nSICK\nyes\nY\nNo\nYES\nyes\nN\nNo\nNO\nno\nN\n\n\nP02\nAmelia\n9A\n13\nF\n37.8\n121.0\nyes\nsick\nY\nYes\nNO\nyes\nN\nNo\nNO\nno\nN\nNo\n\n\nP03\nAri\n9A\n15\nmale\n37.5\n191.3\nN\nyes\nNo\nYES\nyes\nY\nYes\nYES\nno\nN\nNo\nNO\n\n\nP04\nBailey\n9A\n13\nFemale\n38.3\n109.7\nNo\nSick\nYES\nyes\nY\nYes\nYES\nno\nN\nNo\nNO\nno\n\n\nP05\nCharlie\n9A\n14\nmale\n37.7\n124.9\nYES\nSICK\nyes\nY\nYes\nNO\nno\nN\nNo\nNO\nno\nN\n\n\nP06\nChloe\n9A\n13\nMale\n37.4\n180.7\nyes\nsick\nY\nYes\nNO\nno\nN\nNo\nNO\nno\nN\nNo\n\n\n\n\n\n\n\nAsk: what does one row represent? What information do we have about each student? Can you spot anything messy?"
+  },
+  {
+    "objectID": "index.html#what-information-do-we-have",
+    "href": "index.html#what-information-do-we-have",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What information do we have?",
+    "text": "What information do we have?\n\nnames(patients_raw)\n\n\n\n [1] \"patient_id\"        \"first_name\"        \"class\"            \n [4] \"age\"               \"sex\"               \"temperature_c\"    \n [7] \"hours_to_symptoms\" \"hospitalised\"      \"case_status\"      \n[10] \"fever\"             \"cough\"             \"sore_throat\"      \n[13] \"headache\"          \"muscle_aches\"      \"vomiting\"         \n[16] \"diarrhoea\"         \"loss_of_smell\"     \"bleeding\"         \n[19] \"confusion\"        \n\n\n\n❓Can you find patients_raw in the environment pane?"
+  },
+  {
+    "objectID": "index.html#the-records-are-messy",
+    "href": "index.html#the-records-are-messy",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "The records are messy !",
+    "text": "The records are messy !\nThe hospital entered the records very quickly.\nFor example:\nYes, YES, yes and Y\nall mean the same thing.\n\nComputers need us to be consistent. If \"Yes\" and \"YES\" are written differently, R thinks they are different answers."
+  },
+  {
+    "objectID": "index.html#we-can-fix-it-with-a-function",
+    "href": "index.html#we-can-fix-it-with-a-function",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "We can fix it with a function",
+    "text": "We can fix it with a function\nInstead of fixing every value ourselves, we can use a pre-written function.\n\npatients &lt;- clean_data(patients_raw)\n\n\nA function is just a saved set of instructions that someone wrote for us. Same idea as source(“setup/setup.R”) earlier."
+  },
+  {
+    "objectID": "index.html#how-many-students-are-sick",
+    "href": "index.html#how-many-students-are-sick",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "How many students are sick?",
+    "text": "How many students are sick?\n\ncount_cases(patients)\n\n\n\n\n\n\n\ncase_status\nstudents\n\n\n\n\nSick\n71\n\n\nWell\n24\n\n\n\n\n\n\n\nNow look at the students with the highest temperatures.\n\nshow_sickest(patients)\n\n\n\n\n\n\n\npatient_id\nfirst_name\ntemperature_c\nhospitalised\n\n\n\n\nP08\nDev\n38.4\nYes\n\n\nP16\nIsaac\n38.4\nYes\n\n\nP31\nSam\n38.4\nYes\n\n\nP04\nBailey\n38.3\nNo\n\n\nP13\nHarper\n38.3\nYes\n\n\nP23\nMaya\n38.3\nNo\n\n\n\n\n\n\n\nWhat do you notice about their temperatures?"
+  },
+  {
+    "objectID": "index.html#incoming-message-chief-epidemiologist-2",
+    "href": "index.html#incoming-message-chief-epidemiologist-2",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Incoming message: Chief Epidemiologist",
+    "text": "Incoming message: Chief Epidemiologist\n\n\nWe need a rapid symptom summary.\n\n\nInvestigate: the common symptoms, temperature, how quickly symptoms appeared and whether cases all look alike.\n\n\n\nLet students make/edit symptom and temperature figures."
+  },
+  {
+    "objectID": "index.html#what-symptoms-are-most-common",
+    "href": "index.html#what-symptoms-are-most-common",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "What symptoms are most common?",
+    "text": "What symptoms are most common?\n\nsymptoms &lt;- symptom_table(patients)\n\nsymptoms\n\n\n\n\n\n\n\nsymptom\nn\n\n\n\n\ncough\n48\n\n\nsore_throat\n36\n\n\nfever\n34\n\n\nmuscle_aches\n27\n\n\nheadache\n21\n\n\ndiarrhoea\n18\n\n\nvomiting\n14\n\n\nloss_of_smell\n3\n\n\n\n\n\n\n\nTables are useful, but a graph is easier to read !"
+  },
+  {
+    "objectID": "index.html#how-to-ask-ggplot-to-plot-our-symptoms",
+    "href": "index.html#how-to-ask-ggplot-to-plot-our-symptoms",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "How to ask ggplot to plot our symptoms",
+    "text": "How to ask ggplot to plot our symptoms\naes refers to the aesthetics - what goes on each axis.\n\nggplot(symptoms, aes(x = n, y = symptom))\n\n\n\n\n\n\n\n\n\n\n\nSay: “Next we choose what kind of graph we need.”"
+  },
+  {
+    "objectID": "index.html#add-the-bars-with-geom_col",
+    "href": "index.html#add-the-bars-with-geom_col",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Add the bars with geom_col()",
+    "text": "Add the bars with geom_col()\nWe use the + sign to add it to our ggplot command.\n\nggplot(symptoms, aes(x = n, y = symptom)) +\n  geom_col(fill = \"purple\")"
+  },
+  {
+    "objectID": "index.html#give-it-a-title-and-labels",
+    "href": "index.html#give-it-a-title-and-labels",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Give it a title and labels",
+    "text": "Give it a title and labels\n\nggplot(symptoms, aes(x = n, y = symptom)) +\n  geom_col(fill = \"purple\") +\n  labs(\n    title = \"Symptoms reported by sick students\",\n    x = \"Number of students\",\n    y = \"Symptom\"\n  )\n\n\n\nYour turn ! Change \"purple\" to another colour, or change the words inside title =, x = and y =, and run the code again."
+  },
+  {
+    "objectID": "index.html#give-it-a-title-and-labels-output",
+    "href": "index.html#give-it-a-title-and-labels-output",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Give it a title and labels",
+    "text": "Give it a title and labels"
+  },
+  {
+    "objectID": "index.html#do-sick-students-have-higher-temperatures",
+    "href": "index.html#do-sick-students-have-higher-temperatures",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Do sick students have higher temperatures?",
+    "text": "Do sick students have higher temperatures?\n\nggplot(patients, aes(x = case_status, y = temperature_c, fill = case_status)) +\n  geom_boxplot() +\n  labs(title = \"Do sick students have higher temperatures?\", \n       x = \"Student group\", y = \"Temperature (°C)\")\n\n\n\n\n\n\n\n\n\n\n\n\nYour turn ! Inside aes(), change fill = case_status to colour = case_status. What changes?\n\n\nCompare the middle (median) of the two boxplots."
+  },
+  {
+    "objectID": "index.html#how-quickly-did-students-become-sick",
+    "href": "index.html#how-quickly-did-students-become-sick",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "How quickly did students become sick?",
+    "text": "How quickly did students become sick?\n\nshow_onset(patients)\n\n\n\n\n\n\n\nsick_students\ntypical_temperature\ntypical_hours_to_symptoms\n\n\n\n\n71\n37.7\n116\n\n\n\n\n\n\n\nThe time between being exposed and becoming sick can be an important clue."
+  },
+  {
+    "objectID": "index.html#a-second-file-has-arrived",
+    "href": "index.html#a-second-file-has-arrived",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "A second file has arrived",
+    "text": "A second file has arrived\n\nlocations &lt;- load_locations()\n\n\n\n\n\nWe need information from both files.\n\ninvestigation &lt;- combine_evidence(\n  patients,\n  locations\n)"
+  },
+  {
+    "objectID": "index.html#which-locations-have-the-most-illness",
+    "href": "index.html#which-locations-have-the-most-illness",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Which locations have the most illness?",
+    "text": "Which locations have the most illness?\n\nlocations_summary &lt;- location_table(investigation)\n\nlocations_summary\n\n\n\n\n\n\n\nlocation\nstudents\nsick\nattack_rate\n\n\n\n\nBefore-school swimming practice\n15\n15\n1.0000000\n\n\nLunch area\n15\n15\n1.0000000\n\n\nArt class\n10\n10\n1.0000000\n\n\nInternational airport / return flight\n1\n1\n1.0000000\n\n\nClassroom 9A\n31\n19\n0.6129032\n\n\nHockey training\n20\n11\n0.5500000\n\n\nClassroom 9B\n12\n0\n0.0000000\n\n\nLunch courtyard\n24\n0\n0.0000000\n\n\nSwimming practice - did not enter pool\n15\n0\n0.0000000\n\n\n\n\n\n\n\nThe attack rate tells us what fraction of students at each location became sick."
+  },
+  {
+    "objectID": "index.html#lets-plot-the-attack-rates",
+    "href": "index.html#lets-plot-the-attack-rates",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s plot the attack rates",
+    "text": "Let’s plot the attack rates\n\nggplot(locations_summary, aes(x = attack_rate, y = location)) +\n  geom_col(fill = \"skyblue\") +\n  labs(title = \"Where were sick students exposed?\",\n       x = \"Attack rate\", y = \"Location\")\n\n\n\nYour turn ! Change \"skyblue\" to another colour, then try changing the title.\n\nDoes one location or activity stand out? Could there be more than one explanation?"
+  },
+  {
+    "objectID": "index.html#lets-plot-the-attack-rates-output",
+    "href": "index.html#lets-plot-the-attack-rates-output",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s plot the attack rates",
+    "text": "Let’s plot the attack rates"
+  },
+  {
+    "objectID": "index.html#open-the-disease-clue-sheet",
+    "href": "index.html#open-the-disease-clue-sheet",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Open the disease clue sheet",
+    "text": "Open the disease clue sheet\n\ndisease_clues &lt;- load_disease_clues()\n\ndisease_clues\n\n\n\n\n\n\n\ndisease\nfever\ncough\nvomiting\ndiarrhoea\nconfusion_or_bleeding\ntypical_onset\ncommon_exposure\n\n\n\n\nRSV (Respiratory syncytial virus)\nLow / possible\nVery common\nUncommon\nRare\nRare\n2–8 days\nClose respiratory contact; classrooms, lunch, activities\n\n\nHuman metapneumovirus (HMPV)\nPossible\nCommon\nPossible\nRare\nRare\n3–6 days\nRespiratory spread\n\n\nInfluenza A\nHigh\nCommon\nSometimes\nUncommon\nRare\n1–4 days\nRespiratory spread\n\n\nCOVID-19\nPossible\nCommon\nSometimes\nPossible\nRare\n2–5 days\nRespiratory spread\n\n\nRhinovirus\nUsually low\nCommon\nRare\nRare\nRare\n1–3 days\nRespiratory spread\n\n\nCryptosporidiosis\nPossible\nRare\nCommon\nVery common\nRare\n1–12 days; average ~7\nContaminated swimming pool water\n\n\nToxoplasmosis\nPossible\nRare\nRare\nRare\nRare\nVariable\nFood, soil or cat faeces\n\n\nEimeriosis\nVariable\nRare\nPossible\nPossible\nRare\nVariable\nPrimarily animal-associated parasite\n\n\nMalaria (Plasmodium spp.)\nCommon\nRare\nPossible\nPossible\nPossible\nUsually 7+ days\nMosquito exposure\n\n\n\n\n\n\n\nBefore we see the laboratory results, decide:\n\nWhich diseases fit the cough and sore throat group?\nWhich diseases fit the diarrhoea and vomiting group?\nWhat evidence supports your answers?\n\n\nKeep both outbreak hypotheses open. Do not confirm anything yet."
+  },
+  {
+    "objectID": "index.html#lets-draw-the-tree",
+    "href": "index.html#lets-draw-the-tree",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s draw the tree",
+    "text": "Let’s draw the tree\n\nshow_tree(\n  sample_colour = \"red\",\n  reference_colour = \"grey30\",\n  title = \"Which reference is closest to the outbreak samples?\"\n)\n\n\n\n\nWhich reference is closest to most of the student samples?\nDo all of the student samples belong to the same group?\n\n\nA tree tells us which samples are genetically similar. It cannot prove exactly who infected whom."
+  },
+  {
+    "objectID": "index.html#lets-draw-the-tree-output",
+    "href": "index.html#lets-draw-the-tree-output",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s draw the tree",
+    "text": "Let’s draw the tree"
+  },
+  {
+    "objectID": "index.html#who-had-contact-with-whom",
+    "href": "index.html#who-had-contact-with-whom",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Who had contact with whom?",
+    "text": "Who had contact with whom?\n\ncontacts &lt;- load_contacts()\n\n\n\n\n\nHow many separate groups are in the contact data?\n\nnetwork_groups(contacts)\n\n\n\n[1] 80"
+  },
+  {
+    "objectID": "index.html#lets-draw-the-network",
+    "href": "index.html#lets-draw-the-network",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s draw the network",
+    "text": "Let’s draw the network\n\nshow_network(\n  contacts,\n  patients,\n  sick_colour = \"red\",\n  well_colour = \"blue\",\n  title = \"Who had contact with whom?\"\n)\n\n\n\n\nAre most sick students connected?\nWhy might some connected students still be well?\nDoes a connection prove that infection occurred?\n\n\nLet students find the separate gastro group themselves before the next slides explain it."
+  },
+  {
+    "objectID": "index.html#lets-draw-the-network-output",
+    "href": "index.html#lets-draw-the-network-output",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Let’s draw the network",
+    "text": "Let’s draw the network"
+  },
+  {
+    "objectID": "index.html#incoming-message-chief-epidemiologist-3",
+    "href": "index.html#incoming-message-chief-epidemiologist-3",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Incoming message: Chief Epidemiologist",
+    "text": "Incoming message: Chief Epidemiologist\n\n\nThe school has provided the location and activity information.\n\n\nStudents spent time in classrooms, lunch areas, art class, hockey training and swimming practice.\n\n\nI need you to combine location data with the patient records.\n\n\n\nTransition to location/attack-rate plot."
+  },
+  {
+    "objectID": "index.html#incoming-message-chief-epidemiologist-4",
+    "href": "index.html#incoming-message-chief-epidemiologist-4",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Incoming message: Chief Epidemiologist",
+    "text": "Incoming message: Chief Epidemiologist\n\n\nThe reference laboratory has sequenced selected patient samples.\n\n\nYou will compare the simulated sequences with reference organisms using a tree.\n\n\nDo all patient samples belong to the same cluster?\n\n\n\nExplicitly say these are simulated teaching sequences."
+  },
+  {
+    "objectID": "index.html#final-brief-1",
+    "href": "index.html#final-brief-1",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "FINAL BRIEF",
+    "text": "FINAL BRIEF\nYour team must report:\n\nOne outbreak or more than one?\nMost likely diagnosis for each group\nThree pieces of evidence\nLikely exposure/transmission route\nOne limitation\nOne public-health action for each outbreak"
+  },
+  {
+    "objectID": "index.html#case-solved-1",
+    "href": "index.html#case-solved-1",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Case solved",
+    "text": "Case solved\n\n\nOUTBREAK 1: RSV - 56 sick students - Likely introduction: P01 after holiday/airport travel - Pattern: person-to-person respiratory spread through school contacts\n\nOUTBREAK 2: Cryptosporidiosis - 15 sick students - Pattern: common swimming-pool exposure\n\n24 students remained well."
+  },
+  {
+    "objectID": "index.html#incoming-message-chief-epidemiologist-5",
+    "href": "index.html#incoming-message-chief-epidemiologist-5",
+    "title": "It Takes a Spark: Outbreak Detectives",
+    "section": "Incoming message: Chief Epidemiologist",
+    "text": "Incoming message: Chief Epidemiologist\n\n\nInterviewers have provided contact information!!\n\n\nNow we ask: - Can we see person-to-person spread? - Who is connected to the first recognised case? - Are all sick students connected in the same way?\n\nTransition to network figure."
+  }
+]
