@@ -1046,7 +1046,7 @@ Finish on the multidisciplinary message: data science + biology + epidemiology +
 
 ## Do you want to learn more?
 
-[Our online slides of today's lesson](https://r-ladiesmelbourne.github.io/17-11-23-ItTakesASpark/) <!-- update with new link!  -->
+[Our online slides of today's lesson](https://r-ladiesmelbourne.github.io/2026_ItTakesASpark_Outbreak_Detectives_Slides) 
 
 . . .
 
