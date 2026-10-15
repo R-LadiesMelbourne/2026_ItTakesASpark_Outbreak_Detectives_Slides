@@ -1074,18 +1074,10 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11" data-code-line-numbers="6,7,8,9,10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="fu">ggplot</span>(symptoms, <span class="fu">aes</span>(<span class="at">x =</span> n, <span class="at">y =</span> symptom)) <span class="sc">+</span></span>
 <span id="cb11-2"><a></a>  <span class="fu">geom_col</span>(<span class="at">fill =</span> <span class="st">"purple"</span>) <span class="sc">+</span></span>
-<span id="cb11-3"><a></a>  <span class="fu">labs</span>(</span>
-<span id="cb11-4"><a></a>    <span class="at">title =</span> <span class="st">"Symptoms reported by sick students"</span>,</span>
-<span id="cb11-5"><a></a>    <span class="at">x =</span> <span class="st">"Number of students"</span>,</span>
-<span id="cb11-6"><a></a>    <span class="at">y =</span> <span class="st">"Symptom"</span></span>
-<span id="cb11-7"><a></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-3"><a></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Symptoms reported by sick students"</span>,</span>
+<span id="cb11-4"><a></a>       <span class="at">x =</span> <span class="st">"Number of students"</span>, <span class="at">y =</span> <span class="st">"Symptom"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-
-<div class="fragment">
-<p><span class="violet">Your turn !</span> Change <code>"purple"</code> to another colour, or change the words inside <code>title =</code>, <code>x =</code> and <code>y =</code>, and run the code again.</p>
-</div>
-</section>
-<section id="give-it-a-title-and-labels-output" class="slide level2 output-location-slide"><h2>Give it a title and labels</h2><div class="cell output-location-slide">
+<div class="cell fragment">
 <div class="cell-output-display">
 <div>
 <figure>
@@ -1093,7 +1085,27 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </figure>
 </div>
 </div>
-</div></section><section id="do-sick-students-have-higher-temperatures" class="slide level2">
+</div>
+<div class="fragment">
+<div class="sticky sticky-positioned" style="--sticky-bg:#c8e6c9;top:200px;left:40%;width:18em;transform:rotate(-3deg)">
+<p><span class="violet">Your turn !</span> Change <code>"purple"</code> to another colour, or change the words inside <code>title =</code>, <code>x =</code> and <code>y =</code>, and run the code again.</p>
+</div>
+<aside class="notes">
+<p>Note the sticky is DRAGGABLE!!!!!!</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="do-sick-students-have-higher-temperatures" class="slide level2">
 <h2>Do sick students have higher temperatures?</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb12" data-code-line-numbers="3,4,6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="fu">ggplot</span>(patients, <span class="fu">aes</span>(<span class="at">x =</span> case_status, <span class="at">y =</span> temperature_c, <span class="at">fill =</span> case_status)) <span class="sc">+</span></span>
@@ -1111,11 +1123,11 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </div>
 </div>
 <div class="fragment">
-<div class="sticky sticky-positioned" style="--sticky-bg:#c8e6c9;top:180px;left:40%;width:18em;transform:rotate(-3deg)">
+<div class="sticky sticky-positioned" style="--sticky-bg:#c8e6c9;top:200px;left:40%;width:18em;transform:rotate(-3deg)">
 <p><span class="violet">Your turn !</span> Inside <code>aes()</code>, change <code>fill = case_status</code> to <code>colour = case_status</code>. What changes?</p>
 </div>
 <aside class="notes">
-<p>Compare the middle (median) of the two boxplots.</p>
+<p>Compare the middle (median) of the two boxplots. Note the sticky is DRAGGABLE!!!!!!</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1189,48 +1201,23 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <li class="fragment"><p>Infectious disease can be caused by many types of organisms, including viruses, bacteria, fungi and parasites.</p></li>
 <li class="fragment"><p>How a pathogen spreads affects the pattern we see in an outbreak.</p></li>
 </ul>
-<aside class="notes">
-<p>Use a simple virus-versus-parasite visual. Set up respiratory vs faecal-oral/environmental transmission.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="respiratory-transmission" class="slide level2">
-<h2>Respiratory transmission</h2>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Respiratory transmission:</p>
 <ul>
 <li class="fragment"><p>Respiratory viruses can spread when infected people cough, sneeze, talk or have close contact with others.</p></li>
 <li class="fragment"><p>This can create chains of infection through classrooms, households, sport and social activities.</p></li>
 </ul>
-<aside class="notes">
-<p>Do not name RSV yet. Ask what network pattern students would expect for person-to-person spread.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="water-associated-transmission" class="slide level2">
-<h2>Water-associated transmission</h2>
+</div><div class="column" style="width:50%;">
+<p>Water-associated transmission:</p>
 <ul>
 <li class="fragment"><p>Some intestinal parasites spread when microscopic infectious stages contaminate water or surfaces and are swallowed.</p></li>
 <li class="fragment"><p>A shared environmental source can make many people sick without those people infecting one another.</p></li>
 </ul>
+</div></div>
 <aside class="notes">
-<p>Do not name Crypto yet. Ask what a contact network might look like after a common-source exposure.</p>
+<p>Use a simple virus-versus-parasite visual. Set up respiratory vs faecal-oral/environmental transmission. Do not name RSV yet. Ask what network pattern students would expect for person-to-person spread. Do not name Crypto yet. Ask what a contact network might look like after a common-source exposure.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1242,6 +1229,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</div>
 </section>
 <section id="new-evidence-where-were-the-students" class="slide level2 big-statement" data-menu-title="The case" data-background-color="#ff5b92" style="font-size:80px;padding: 5px ">
 <h2>NEW EVIDENCE: Where were the students?</h2>
@@ -1278,9 +1266,6 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <div class="cell">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a>locations <span class="ot">&lt;-</span> <span class="fu">load_locations</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell fragment">
-
-</div>
 <div class="fragment">
 <p>We need information from <span class="violet-emph">both files</span>.</p>
 <div class="cell">
@@ -1288,9 +1273,6 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <span id="cb15-2"><a></a>  patients,</span>
 <span id="cb15-3"><a></a>  locations</span>
 <span id="cb15-4"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell fragment">
-
 </div>
 </div>
 </section>
@@ -1385,11 +1367,21 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <span id="cb17-3"><a></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Where were sick students exposed?"</span>,</span>
 <span id="cb17-4"><a></a>       <span class="at">x =</span> <span class="st">"Attack rate"</span>, <span class="at">y =</span> <span class="st">"Location"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-
+<div class="cell fragment">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-17-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
 <div class="fragment">
+<div class="sticky sticky-positioned" style="--sticky-bg:#c8e6c9;top:200px;left:40%;width:18em;transform:rotate(-3deg)">
 <p><span class="violet">Your turn !</span> Change <code>"skyblue"</code> to another colour, then try changing the title.</p>
+</div>
 <aside class="notes">
-<p>Does one location or activity stand out? Could there be more than one explanation?</p>
+<p>Does one location or activity stand out? Could there be more than one explanation? Note the sticky is DRAGGABLE!!!!!!</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1403,19 +1395,12 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
       }</style></aside>
 </div>
 </section>
-<section id="lets-plot-the-attack-rates-output" class="slide level2 output-location-slide"><h2>Let’s plot the attack rates</h2><div class="cell output-location-slide">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="index_files/figure-revealjs/unnamed-chunk-17-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div></section><section id="what-stands-out" class="slide level2">
+<section id="what-stands-out" class="slide level2">
 <h2>What stands out?</h2>
 <p>Look for patterns rather than one perfect clue.</p>
-<p>Questions: - Are respiratory cases linked through school activities?</p>
+<p>Questions:</p>
 <ul>
+<li class="fragment"><p>Are respiratory cases linked through school activities?</p></li>
 <li class="fragment"><p>Is there a location shared by the gastro cases?</p></li>
 <li class="fragment"><p>Are some students at that location sick with a different symptom pattern?</p></li>
 </ul>
@@ -1437,8 +1422,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <h2>Open the disease clue sheet</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a></a>disease_clues <span class="ot">&lt;-</span> <span class="fu">load_disease_clues</span>()</span>
-<span id="cb18-2"><a></a></span>
-<span id="cb18-3"><a></a>disease_clues</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb18-2"><a></a>disease_clues</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell fragment">
 <div class="cell-output-display">
@@ -1552,7 +1536,9 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </div>
 </div>
 </div>
-<div class="fragment">
+</section>
+<section id="open-the-disease-clue-sheet-1" class="slide level2">
+<h2>Open the disease clue sheet</h2>
 <p>Before we see the laboratory results, decide:</p>
 <ol type="1">
 <li class="fragment">Which diseases fit the cough and sore throat group?</li>
@@ -1572,7 +1558,6 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</div>
 </section>
 <section id="breaking-news-sequencing-results" class="slide level2 big-statement" data-menu-title="The case" data-background-color="#ff5b92" style="font-size:80px;padding: 5px ">
 <h2>BREAKING NEWS: sequencing results</h2>
@@ -1607,7 +1592,12 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <section id="how-to-read-the-tree" class="slide level2">
 <h2>How to read the tree</h2>
 <p>A phylogenetic tree groups sequences by similarity.</p>
-<p>Tips: - tips that join closely are more similar in this teaching dataset - look for patient samples clustering near a named reference - branch position matters more than left-to-right order</p>
+<p>💡 Tips:</p>
+<ul>
+<li class="fragment">tips that join closely are more similar in this teaching dataset</li>
+<li class="fragment">look for patient samples clustering near a named reference</li>
+<li class="fragment">branch position matters more than left-to-right order</li>
+</ul>
 <aside class="notes">
 <p>Keep this conceptual. Avoid implying the cross-virus/parasite branch lengths are biologically meaningful.</p>
 <style type="text/css">
@@ -1672,12 +1662,22 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <span id="cb19-4"><a></a>  <span class="at">title =</span> <span class="st">"Which reference is closest to the outbreak samples?"</span></span>
 <span id="cb19-5"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-
+<div class="cell fragment">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-19-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
 <div class="fragment">
+<div class="sticky sticky-positioned" style="--sticky-bg:#c8e6c9;top:200px;left:40%;width:18em;transform:rotate(-3deg)">
 <ul>
 <li class="fragment">Which reference is closest to most of the student samples?</li>
 <li class="fragment">Do <span class="violet-emph">all</span> of the student samples belong to the same group?</li>
 </ul>
+</div>
 <aside class="notes">
 <p>A tree tells us which samples are genetically similar. It cannot prove exactly who infected whom.</p>
 <style type="text/css">
@@ -1693,20 +1693,14 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
       }</style></aside>
 </div>
 </section>
-<section id="lets-draw-the-tree-output" class="slide level2 output-location-slide"><h2>Let’s draw the tree</h2><div class="cell output-location-slide">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="index_files/figure-revealjs/unnamed-chunk-19-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div></section><section id="the-tree-reveals-two-groups" class="slide level2">
+<section id="the-tree-reveals-two-groups" class="slide level2">
 <h2>The tree reveals two groups</h2>
-<p>Patient sequences do not form one cluster.</p>
-<p>One set clusters with RSV.</p>
-<p>Another set clusters with Cryptosporidium.</p>
-<p>We may be investigating TWO outbreaks at the same time.</p>
+<ul>
+<li class="fragment"><p>Patient sequences do not form one cluster.</p></li>
+<li class="fragment"><p>One set clusters with RSV.</p></li>
+<li class="fragment"><p>Another set clusters with Cryptosporidium.</p></li>
+<li class="fragment"><p>We may be investigating TWO outbreaks at the same time.</p></li>
+</ul>
 <aside class="notes">
 <p>This is the major diagnostic reveal. Let students identify the labels before showing the final sentence if possible.</p>
 <style type="text/css">
@@ -1731,7 +1725,13 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <p>Interviewers have provided contact information!!</p>
 </div>
 </div>
-<p>Now we ask: - Can we see person-to-person spread? - Who is connected to the first recognised case? - Are all sick students connected in the same way?</p>
+<div class="fragment">
+<p>Now we ask:</p>
+<ul>
+<li class="fragment">Can we see person-to-person spread?</li>
+<li class="fragment">Who is connected to the first recognised case?</li>
+<li class="fragment">Are all sick students connected in the same way?</li>
+</ul>
 <aside class="notes">
 <p>Transition to network figure.</p>
 <style type="text/css">
@@ -1745,14 +1745,12 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</div>
 </section>
 <section id="who-had-contact-with-whom" class="slide level2">
 <h2>Who had contact with whom?</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a></a>contacts <span class="ot">&lt;-</span> <span class="fu">load_contacts</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell fragment">
-
 </div>
 <div class="fragment">
 <p>How many separate groups are in the contact data?</p>
@@ -1769,21 +1767,27 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <section id="lets-draw-the-network" class="slide level2">
 <h2>Let’s draw the network</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a></a><span class="fu">show_network</span>(</span>
-<span id="cb23-2"><a></a>  contacts,</span>
-<span id="cb23-3"><a></a>  patients,</span>
-<span id="cb23-4"><a></a>  <span class="at">sick_colour =</span> <span class="st">"red"</span>,</span>
-<span id="cb23-5"><a></a>  <span class="at">well_colour =</span> <span class="st">"blue"</span>,</span>
-<span id="cb23-6"><a></a>  <span class="at">title =</span> <span class="st">"Who had contact with whom?"</span></span>
-<span id="cb23-7"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a></a><span class="fu">show_network</span>(contacts, patients, </span>
+<span id="cb23-2"><a></a>    <span class="at">sick_colour =</span> <span class="st">"red"</span>, <span class="at">well_colour =</span> <span class="st">"blue"</span>,</span>
+<span id="cb23-3"><a></a>    <span class="at">title =</span> <span class="st">"Who had contact with whom?"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-
+<div class="cell fragment">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-22-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
 <div class="fragment">
+<div class="sticky sticky-positioned" style="--sticky-bg:#c8e6c9;top:200px;left:40%;width:18em;transform:rotate(-3deg)">
 <ul>
 <li class="fragment">Are most sick students connected?</li>
 <li class="fragment">Why might some connected students still be well?</li>
 <li class="fragment">Does a connection <span class="violet-emph">prove</span> that infection occurred?</li>
 </ul>
+</div>
 <aside class="notes">
 <p>Let students find the separate gastro group themselves before the next slides explain it.</p>
 <style type="text/css">
@@ -1799,15 +1803,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
       }</style></aside>
 </div>
 </section>
-<section id="lets-draw-the-network-output" class="slide level2 output-location-slide"><h2>Let’s draw the network</h2><div class="cell output-location-slide">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="index_files/figure-revealjs/unnamed-chunk-22-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div></section><section id="the-rsv-network" class="slide level2">
+<section id="the-rsv-network" class="slide level2">
 <h2>The RSV network</h2>
 <p>P01 recently returned from holiday via an international airport and is the likely introduction in our fictional scenario.</p>
 <p>From P01, the contact pattern branches through: classroom → classmates → lunch/art → second classroom → hockey.</p>
@@ -1867,28 +1863,53 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 <h2>Case solved</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>OUTBREAK 1: RSV - 56 sick students - Likely introduction: P01 after holiday/airport travel - Pattern: person-to-person respiratory spread through school contacts</p>
+<p><span class="accent-rose">OUTBREAK 1: RSV</span></p>
+<ul>
+<li class="fragment">56 sick students</li>
+<li class="fragment">Likely introduction: P01 after holiday/airport travel</li>
+<li class="fragment">Pattern: person-to-person respiratory spread through school contacts</li>
+</ul>
 </div><div class="column" style="width:50%;">
-<p>OUTBREAK 2: Cryptosporidiosis - 15 sick students - Pattern: common swimming-pool exposure</p>
+<p><span class="accent-rose">OUTBREAK 2: Cryptosporidiosis</span></p>
+<ul>
+<li class="fragment">15 sick students</li>
+<li class="fragment">Pattern: common swimming-pool exposure</li>
+</ul>
 </div></div>
+<div class="fragment">
 <p>24 students remained well.</p>
+</div>
 </section>
 <section id="what-would-public-health-officers-do-next" class="slide level2">
 <h2>What would public health officers do next?</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>For a respiratory outbreak: - identify cases and advise on staying home while unwell - reinforce cough/hand hygiene and ventilation - monitor for additional cases</p>
+<p><span class="accent-rose">For a respiratory outbreak:</span></p>
+<ul>
+<li class="fragment">identify cases and advise on staying home while unwell</li>
+<li class="fragment">reinforce cough/hand hygiene and ventilation</li>
+<li class="fragment">monitor for additional cases</li>
+</ul>
 </div><div class="column" style="width:50%;">
-<p>For suspected pool-associated Crypto: - confirm cases and investigate the aquatic facility - advise people with diarrhoea not to swim - work with environmental health/pool operators on control measures</p>
+<p><span class="accent-rose">For suspected pool-associated Crypto:</span></p>
+<ul>
+<li class="fragment">confirm cases and investigate the aquatic facility</li>
+<li class="fragment">advise people with diarrhoea not to swim</li>
+<li class="fragment">work with environmental health/pool operators on control measures</li>
+</ul>
 </div></div>
 </section>
 <section id="real-life-rsv-in-australia-2026" class="slide level2">
 <h2>Real life: RSV in Australia, 2026</h2>
-<p>The workshop’s RSV storyline was inspired by a July 2026 newsGP report.</p>
-<p>During the first half of 2026, RSV was the most notified of RSV, influenza and COVID-19 nationally: 83,678 RSV notifications, compared with 51,655 COVID-19 and 49,785 influenza notifications.</p>
-<p>RSV accounted for 45% of notifications across those three respiratory viruses in that period.</p>
+<!-- INSERT IMAGE: WEBSITE IS CURRENTLY UNDER MAINTENANCE SO CAN'T TAKE SCREENSHOT -->
+<!-- ![RACGP newsGP, 15 July 2026](images/article_rsv.png) -->
+<ul>
+<li class="fragment"><p>The workshop’s RSV storyline was inspired by a July 2026 newsGP report.</p></li>
+<li class="fragment"><p>During the first half of 2026, RSV was the most notified of RSV, influenza and COVID-19 nationally: 83,678 RSV notifications, compared with 51,655 COVID-19 and 49,785 influenza notifications.</p></li>
+<li class="fragment"><p>RSV accounted for 45% of notifications across those three respiratory viruses in that period.</p></li>
+</ul>
 <aside class="notes">
-<p>Source: RACGP newsGP, 15 July 2026. Clarify that our fictional school outbreak and student numbers are invented; the national notification figures are real. https://www1.racgp.org.au/newsgp/clinical/rsv-tops-most-notified-respiratory-virus RACGP newsGP - “RSV tops most notified respiratory virus”, 15 July 2026 https://www1.racgp.org.au/newsgp/clinical/rsv-tops-most-notified-respiratory-virus</p>
+<p>Source: RACGP newsGP, 15 July 2026. Clarify that our fictional school outbreak and student numbers are invented; the national notification figures are real. RACGP newsGP - “RSV tops most notified respiratory virus”, https://www1.racgp.org.au/newsgp/clinical/rsv-tops-most-notified-respiratory-virus</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1903,13 +1924,12 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </section>
 <section id="real-life-crypto-and-swimming-pools" class="slide level2">
 <h2>Real life: Crypto and swimming pools</h2>
-<p>Pool-associated cryptosporidiosis is a real public-health problem.</p>
+
+<img data-src="images/article_crypto.png" class="r-stretch quarto-figure-center"><p class="caption">ABC News, 11 February 2026</p><p>Pool-associated cryptosporidiosis is a real public-health problem.</p>
 <p>Victorian health guidance recognises public pools and recreational water as outbreak sources, and Crypto can survive normal pool chlorine levels.</p>
 <p>In February 2026, an Adelaide aquatic-centre cluster involved eight cases linked to Waterworld, with pools temporarily closed for decontamination.</p>
 <aside class="notes">
 <p>This grounds the fictional swimming scenario in a contemporary Australian example. Also mention Victoria recorded 1,125 notifications in 2025 after a record 2,350 in 2024 if useful.</p>
-<p>https://www.google.com/goto?url=CAESewHrOzAVZDPd6GVPyJZ8cS9ez38NsdUdGG6uz7f4iApYFu_ZK9Eq-adX_B_o7ta6tCxAyc_BvzWtYtrZsLG0IAtHwDASJCSuSKN319wJkz5WdUZl-MLk7AsL-jOyD9UC_tvUuWGgd2l0DS7NF1PZMI48C1bsG6Di2HCRfg</p>
-<p>Sources for the real-life closing slides • Victorian Department of Health - Cryptosporidiosis https://www.health.vic.gov.au/infectious-diseases/cryptosporidiosis • Victorian Department of Health - Cryptosporidium and swimming pools https://www.health.vic.gov.au/water/cryptosporidium • ABC News - “Cryptosporidium cluster at Waterworld leads to closure of Adelaide Aquatic Centre pools”, 11 February 2026 https://www.abc.net.au/news/2026-02-11/adelaide-aquatic-centres-close-after-cluster-of-gastro-cases/106330324 • Victorian Department of Health - “Keep pools safe this summer: simple steps to stop crypto”, 31 December 2025 https://www.health.vic.gov.au/media-releases/keep-pools-safe-this-summer-simple-steps-to-stop-crypto</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1964,8 +1984,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 </section>
 <section id="do-you-want-to-learn-more" class="slide level2">
 <h2>Do you want to learn more?</h2>
-<p><a href="https://r-ladiesmelbourne.github.io/17-11-23-ItTakesASpark/">Our online book of today’s lesson</a> <!-- update with new link!  --></p>
-<p>Scan the QR code on our poster! <!-- update with new link!  --></p>
+<p><a href="https://r-ladiesmelbourne.github.io/17-11-23-ItTakesASpark/">Our online slides of today’s lesson</a> <!-- update with new link!  --></p>
 <div class="fragment">
 <p><a href="https://education.rstudio.com/learn/beginner/">RStudio Education for Beginners</a></p>
 <p><a href="https://r4ds.had.co.nz/">R for Data Science</a></p>
@@ -2312,7 +2331,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
         }
           var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
           var mailtoRegex = new RegExp(/^mailto:/);
-            var filterRegex = new RegExp('/' + window.location.host + '/');
+            var filterRegex = new RegExp("https:\/\/R-LadiesMelbourne\.github\.io\/2026_ItTakesASpark_Outbreak_Detectives_Slides\/");
           var isInternal = (href) => {
               return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
           }

@@ -15,7 +15,7 @@ The slides are a [Quarto](https://quarto.org/) revealjs presentation. To contrib
 1. **Prerequisites**: install [Quarto](https://quarto.org/docs/get-started/) and clone this repository.
 2. **Edit the slides**: all content lives in `index.qmd`. Custom styling is in `theme/theme.css` and images in `images/`.
 3. **Preview locally**: run `quarto preview` from the project root to see live-reloading slides in your browser.
-4. **Publish**: the slides are hosted on GitHub Pages from the `gh-pages` branch. To render and publish in one step, run:
+4. **Publish**: the slides are hosted on GitHub Pages from the `gh-pages` branch. To render and publish in one step, run in the terminal:
    ```sh
    quarto publish gh-pages
    ```
