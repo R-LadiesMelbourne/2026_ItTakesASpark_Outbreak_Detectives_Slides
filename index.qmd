@@ -583,8 +583,10 @@ Dataset design: among 56 RSV cases, cough 48/56 and sore throat 36/56; among 15 
 - Infectious diseases are caused by viruses, bacteria, fungi and parasites.
 - Transmission routes determine outbreak patterns.
 
+. . . 
+
 ::::: columns
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.8em;"}
 
 Respiratory transmission: 
 
@@ -592,7 +594,7 @@ Respiratory transmission:
 - Creates infection chains through classrooms, households, and social settings.
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.8em;"}
 Water-associated transmission: 
 
 - Intestinal parasites spread when infectious stages contaminate water/surfaces and are ingested.
@@ -704,6 +706,7 @@ This is where swimming becomes suspicious without yet announcing Crypto.
 
 ## Open the disease clue sheet
 
+::: {style="font-size: 0.8em;"}
 ```{r}
 #| echo: true
 #| output-location: fragment
@@ -711,6 +714,7 @@ This is where swimming becomes suspicious without yet announcing Crypto.
 disease_clues <- load_disease_clues()
 disease_clues
 ```
+:::
 
 ## Open the disease clue sheet
 
